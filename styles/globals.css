@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'CalSans';
+        src: url('../public/fonts/CalSans-SemiBold.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'Poppins';
+        src: url('../public/fonts/Poppins-Bold.ttf');
+        src: url('../public/fonts/Poppins-ExtraLight.ttf');
+        src: url('../public/fonts/Poppins-Light.ttf');
+    }
+}
+
+.active{
+    color: #785ACE;
+}
+.radial-bg{
+    background: rgb(89,52,197);
+    background: radial-gradient(circle, rgba(89,52,197,1) 0%, rgba(120,90,206,1) 96%, rgba(94,60,191,1) 100%);     
+}
