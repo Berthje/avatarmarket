@@ -15,6 +15,11 @@
     }
 }
 
+body{
+    background: url('../public/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
 .active{
     color: #785ACE;
 }
