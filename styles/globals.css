@@ -16,10 +16,10 @@
 }
 
 body{
-    background: url('../public/bg.jpg') no-repeat;
-    background-size: cover;
+    background-color: #0E1130;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
-
 .active{
     color: #785ACE;
 }

@@ -12,7 +12,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <header className=" text-white w-full px-6 py-4 flex items-center justify-between">
+    <header className="w-full px-6 py-4 flex items-center justify-between">
       {/* Brand Name */}
       <div>
         <h2 className="font-[CalSans] tracking-tighter text-3xl">
