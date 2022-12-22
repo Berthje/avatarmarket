@@ -28,7 +28,7 @@ const Hero = () => {
         </button>
       </div>
       <div className="flex justify-center mt-5">
-        <Image src="/heroImage.png" alt="NFT Avatar" width={350} height={350} objectFit="cover"/>
+        <Image src="/heroImage.png" alt="NFT Avatar" width={350} height={350}/>
       </div>
     </div>
   );
