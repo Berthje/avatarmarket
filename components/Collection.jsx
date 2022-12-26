@@ -8,7 +8,7 @@ const Collection = ({
   previewImage3,
 }) => {
   return (
-    <div className="mb-12 max-w-[320px] cursor-pointer">
+    <div className="mb-12 min-w-[320px] cursor-pointer">
       <div className="w-full grid grid-cols-2 gap-2">
         <div className='overflow-hidden'>
           <div className="w-[155px] h-[105px] bg-cover bg-center transition-all duration-500 ease-in-out transform hover:scale-150" style={{backgroundImage: `url(${previewImage1.substring(previewImage1.indexOf('/')+1)})`}}></div>

@@ -13,6 +13,10 @@
         src: url('../public/fonts/Poppins-ExtraLight.ttf');
         src: url('../public/fonts/Poppins-Light.ttf');
     }
+    @font-face {
+        font-family: 'Poppins-Extralight';
+        src: url('../public/fonts/Poppins-ExtraLight.ttf');
+    }
 }
 
 body{

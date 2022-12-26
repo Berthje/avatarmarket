@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Collections from '../components/Trending';
+import WorkProcess from '../components/WorkProcess';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Collections />
+      <WorkProcess />
     </div>
   )
 }
