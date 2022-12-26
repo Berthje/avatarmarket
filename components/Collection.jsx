@@ -10,10 +10,18 @@ const Collection = ({
   return (
     <div className="mb-12 max-w-[320px] cursor-pointer">
       <div className="w-full h-full grid grid-cols-2 gap-2">
-        <div className='w-[155px] h-[105px] bg-cover bg-center' style={{backgroundImage: `url(${previewImage1.substring(previewImage1.indexOf('/')+1)})`}}></div>
-        <div className='w-[155px] h-[105px] bg-cover bg-center' style={{backgroundImage: `url(${previewImage2.substring(previewImage1.indexOf('/')+1)})`}}></div>
-        <div className='w-[155px] h-[105px] bg-cover bg-center' style={{backgroundImage: `url(${previewImage3.substring(previewImage1.indexOf('/')+1)})`}}></div>
-        <div className='w-[155px] h-[105px] bg-[length:500%] bg-left' style={{backgroundImage: `url(${previewImage3.substring(previewImage1.indexOf('/')+1)})`}}></div>
+        <div className='overflow-hidden'>
+          <div className="w-[155px] h-[105px] bg-cover bg-center transition-all duration-500 ease-in-out transform hover:scale-150" style={{backgroundImage: `url(${previewImage1.substring(previewImage1.indexOf('/')+1)})`}}></div>
+        </div>
+        <div className='overflow-hidden'>
+          <div className="w-[155px] h-[105px] bg-cover bg-center transition-all duration-500 ease-in-out transform hover:scale-150" style={{backgroundImage: `url(${previewImage2.substring(previewImage1.indexOf('/')+1)})`}}></div>
+        </div>
+        <div className='overflow-hidden'>
+          <div className="w-[155px] h-[105px] bg-cover bg-center transition-all duration-500 ease-in-out transform hover:scale-150" style={{backgroundImage: `url(${previewImage3.substring(previewImage1.indexOf('/')+1)})`}}></div>
+        </div>
+        <div className='overflow-hidden'>
+          <div className='w-[155px] h-[105px] bg-[length:500%] bg-left transition-all duration-500 ease-in-out transform hover:scale-150' style={{backgroundImage: `url(${previewImage3.substring(previewImage3.indexOf('/')+1)})`}}></div>
+        </div>
       </div>
       <div className="w-[320px] h-[110px] bg-[#E147FD] rounded-b-[30px] absolute -z-[100] mt-[9px]"></div>
       <div className="w-full h-[110px] bg-[#1A1A1A] rounded-b-[30px] flex justify-between items-center px-10 mt-2">
