@@ -57,7 +57,7 @@ const Trending = () => {
 
   return (
     <div className="px-12 pb-24">
-      <h2 className="flex justify-center items font-[CalSans] text-[1.8rem] mb-8">
+      <h2 className="flex justify-center items font-[CalSans] text-[1.8rem] mb-16">
         <Image
           src="/flame.png"
           alt="flame"
@@ -67,7 +67,7 @@ const Trending = () => {
         />
         Trending Collections
       </h2>
-      <div className="w-80 m-auto">
+      <div className="w-full flex flex-wrap gap-12 justify-center">
         {collections.map((collection) => (
           <Collection
             name={collection.name}
