@@ -8,7 +8,7 @@ const Collection = ({
   previewImage3,
 }) => {
   return (
-    <div className="pb-12 max-w-[320px]">
+    <div className="mb-12 max-w-[320px] cursor-pointer">
       <div className="w-full h-full grid grid-cols-2 gap-2">
         <div className='w-[155px] h-[105px] bg-cover bg-center' style={{backgroundImage: `url(${previewImage1.substring(previewImage1.indexOf('/')+1)})`}}></div>
         <div className='w-[155px] h-[105px] bg-cover bg-center' style={{backgroundImage: `url(${previewImage2.substring(previewImage1.indexOf('/')+1)})`}}></div>
