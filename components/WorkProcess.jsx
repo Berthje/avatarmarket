@@ -13,25 +13,25 @@ const WorkProcess = () => {
         id: 1,
         image: wallet,
         title: 'Connect your wallet',
-        description : 'via your preferred wallet app. For example: Metamask, Trust Wallet, ...',
+        description: 'via your preferred wallet app. For example: Metamask, Trust Wallet, ...',
     },
     {
         id: 2,
         image: upload,
         title: 'List your avatar',
-        description : 'and add your listing prices & settings to your liking.',
+        description: 'and add your listing prices & settings to your liking.',
     },
     {
         id: 3,
         image: clock,
         title: 'Wait for a purchase',
-        description : 'now it will automatically convert from Polygon Ethereum to moons',
+        description: 'now it will automatically convert from Polygon Ethereum to moons',
     },
     {
         id: 4,
         image: completion,
         title: 'Wait for completion',
-        description : 'and you will get sent moons to your connected wallet.',
+        description: 'and you will get sent moons to your connected wallet.',
     }
   ];
 
@@ -44,6 +44,7 @@ const WorkProcess = () => {
             image={step.image}
             name={step.title}
             description={step.description}
+            key={step.id}
           />
         ))}
       </div>
