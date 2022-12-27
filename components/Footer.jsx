@@ -9,11 +9,11 @@ const Footer = () => {
                 <h2 className="font-[CalSans] tracking-tighter text-4xl mb-2 lg:text-5xl">avatarmarket</h2>
                 <h3 className='font-[Poppins-Extralight] mb-1 text-[#C1C1CB] max-w-md'>The First Digital Marketplace for Reddit Avatar NFTs that supports multi-chain. Buy with RCPs & ETH.</h3>
                 <p className='font-[Poppins] font-bold text-[#C1C1CB] mb-4 max-w-md'>Avatarmarket is neither a creation of, nor an affiliation with Reddit and OpenSea.</p>
-                <h3 className='font-[CalSans] text-2xl mb-4'>Follow the <span className='text-[#B62FCE]'>community</span></h3>
+                <h3 className='font-[CalSans] text-3xl mb-4'>Follow the <span className='text-[#B62FCE]'>community</span></h3>
                 <div className='flex flex-row gap-5 mb-24'>
-                    <div className='bg-white p-2 rounded-2xl'><Image src="/discordicon.svg" width={50} height={50}/></div>
-                    <div className='bg-white p-2 rounded-2xl'><Image src="/redditicon.svg" width={50} height={50}/></div>
-                    <div className='bg-white p-2 rounded-2xl'><Image src="/telegramicon.svg" width={50} height={50}/></div>
+                    <a href='#'><div className='bg-white p-2 rounded-2xl hover:bg-white/80 transition-all'><Image src="/discordicon.svg" width={50} height={50} className='hover:animate-pulse'/></div></a>
+                    <a href='#'><div className='bg-white p-2 rounded-2xl hover:bg-white/80 transition-all'><Image src="/redditicon.svg" width={50} height={50} className='hover:animate-pulse'/></div></a>
+                    <a href='#'><div className='bg-white p-2 rounded-2xl hover:bg-white/80 transition-all'><Image src="/telegramicon.svg" width={50} height={50} className='hover:animate-pulse'/></div></a>
                 </div>
             </div>
             <div className='drop-shadow-[0_0_95px_rgba(236,134,255,0.75)]'>
