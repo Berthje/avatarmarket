@@ -37,7 +37,7 @@ const WorkProcess = () => {
 
   return (
     <div className="px-12 pb-24">
-      <h2 className="flex justify-center items font-[CalSans] text-[1.8rem] mb-16">❓ How does it work</h2>
+      <h2 className="flex justify-center font-[CalSans] text-[1.8rem] mb-16">❓ How does it work</h2>
       <div className="w-full flex flex-wrap gap-12 justify-center">
         {steps.map((step) => (
           <Step 
