@@ -27,7 +27,7 @@ const Collection = ({
       <div className="w-full h-[110px] bg-[#1A1A1A] rounded-b-[30px] flex justify-between items-center px-10 mt-2">
         <h2 className="font-[CalSans] text-[1.1rem] tracking-wider">{name}</h2>
         <div className="border-2 border-[#878787] rounded-md p-1.5">
-          <h3 className="font-[Poppins] text-[0.8rem] text-[#878787] font-bold">{items} items</h3>
+          <h3 className="font-[Poppins] text-[0.8rem] text-[#878787] font-bold hover:text-white transition-colors">{items} items</h3>
         </div>
       </div>
     </div>
