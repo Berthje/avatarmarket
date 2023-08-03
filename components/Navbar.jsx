@@ -42,9 +42,9 @@ const Navbar = () => {
             {navLinks.map((link, index) => {
               const activeStyle = link.path === router.pathname ? 'active' : '';
               return (
-                <ul>
+                <ul key={index}>
                   <Link href={link.path}>
-                    <li key={index} className={`font-[CalSans] mb-4 ${activeStyle}`}>{link.name}</li>
+                    <li className={`font-[CalSans] mb-4 ${activeStyle}`}>{link.name}</li>
                   </Link>
                 </ul>
               );
