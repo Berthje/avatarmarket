@@ -13,8 +13,17 @@
         src: url('../public/fonts/Poppins-ExtraLight.ttf');
         src: url('../public/fonts/Poppins-Light.ttf');
     }
+    @font-face {
+        font-family: 'Poppins-Extralight';
+        src: url('../public/fonts/Poppins-ExtraLight.ttf');
+    }
 }
 
+body{
+    background-color: #0E1130;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
 .active{
     color: #785ACE;
 }
